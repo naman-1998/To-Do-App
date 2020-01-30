@@ -1,0 +1,17 @@
+div{
+  margin-left: 20px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  background-color:  linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+
+}
+h1{
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+  color: white;
+  font-weight: normal;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

@@ -1,0 +1,35 @@
+#a
+{
+  width:auto;
+  height:80%;
+  background-color: maroon;
+}
+#b
+{
+  width:auto;
+  height:30%;
+}
+#c
+{
+  width:auto;
+  height:auto;
+}
+
+.mid1{
+
+  text-align: center;
+
+}
+#ap{
+  margin-top: 20px;
+  margin-bottom:20px;
+
+}
+#wr
+{
+  width:100%;
+}
+.ip
+{
+  width:100%;
+}

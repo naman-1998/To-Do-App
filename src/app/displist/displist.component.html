@@ -1,0 +1,12 @@
+<head>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<div class="panel panel-danger" *ngFor ="let w of wrk; let i = index ">
+  <div class="panel-body">{{w.wd}}
+    <i (click) ="wrk.splice(i,1)" class = "fa fa-trash-o" style ="font-size:27px;
+    float:right;padding-top: 3px;padding-left: 8px; height:31px;margin-top:-5px;width:25px">
+    </i>
+  </div>
+</div>
+

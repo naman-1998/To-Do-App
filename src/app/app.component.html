@@ -1,0 +1,40 @@
+<head>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<div class="container-fluid">
+
+<div class="row" id="a">
+  <app-header></app-header>
+
+</div>
+
+<div class="row" id="b">
+  <div class="col-md-2">
+
+  </div>
+  <div class="col-md-8" id="ap">
+     <app-addwork (workadd) = "onPostAdded($event)"></app-addwork>
+
+  </div>
+<div class="col-md-2">
+
+</div>
+</div>
+<hr>
+
+<div class="row" id="c">
+<div class="col-md-2">
+
+</div>
+<div class="col-md-8">
+  <app-displist [wrk] ="storedPosts">
+
+  </app-displist>
+
+</div>
+<div class="col-md-2">
+
+</div>
+</div>
+</div>
+
